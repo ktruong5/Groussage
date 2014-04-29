@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UIActionSheetDelegate, MFMessageComposeViewControllerDelegate>
 
-@property (strong, nonatomic) id detailItem;
+@property (nonatomic, strong) NSDictionary *dictContactDetails;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (nonatomic, weak) IBOutlet UILabel *lblContactName;
+@property (nonatomic, weak) IBOutlet UIImageView *imgContactImage;
+@property (nonatomic, weak) IBOutlet UITableView *tblContactDetails;
+
+-(IBAction)makeCall:(id)sender;
+-(IBAction)sendSMS:(id)sender;
+
 @end

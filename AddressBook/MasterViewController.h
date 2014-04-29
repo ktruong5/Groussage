@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AddressBook/AddressBook.h>
+#import <AddressBookUI/AddressBookUI.h>
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController <ABPeoplePickerNavigationControllerDelegate>
 
 @end
