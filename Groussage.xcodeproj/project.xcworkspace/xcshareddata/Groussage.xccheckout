@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>28F063D9-09CE-4A22-909D-932FD47084F0</string>
+	<string>FD885951-F89A-45AC-B421-C9D1C27DB3DD</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Groussage</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -17,10 +17,10 @@
 	<string>Groussage.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>A9A71B03-3794-4B06-9988-BF2158D99681</key>
+		<string>../../../AddressBook</string>
 		<key>BAB1FA23-5D94-4936-864B-7B68A377DBB6</key>
 		<string>../..</string>
-		<key>F2320792-84C8-42EA-A065-F11433FCDDFE</key>
-		<string>../../../AddressBook</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ktruong5/Groussage.git</string>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F2320792-84C8-42EA-A065-F11433FCDDFE</string>
+			<string>A9A71B03-3794-4B06-9988-BF2158D99681</string>
 			<key>IDESourceControlWCCName</key>
 			<string>AddressBook</string>
 		</dict>
