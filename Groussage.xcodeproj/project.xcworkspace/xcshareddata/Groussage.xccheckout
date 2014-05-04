@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>001E7E91-AC3A-4B71-BC7E-783D83657A1F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Groussage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BAB1FA23-5D94-4936-864B-7B68A377DBB6</key>
+		<string>https://github.com/ktruong5/Groussage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Groussage.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BAB1FA23-5D94-4936-864B-7B68A377DBB6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ktruong5/Groussage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BAB1FA23-5D94-4936-864B-7B68A377DBB6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BAB1FA23-5D94-4936-864B-7B68A377DBB6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Groussage</string>
+		</dict>
+	</array>
+</dict>
+</plist>

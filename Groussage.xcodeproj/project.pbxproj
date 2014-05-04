@@ -22,12 +22,14 @@
 		2C4CB4DF190DE153001E4E9B /* GroussageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CB4DE190DE153001E4E9B /* GroussageTests.m */; };
 		2C4CB4EA190DE2C8001E4E9B /* GroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CB4E9190DE2C8001E4E9B /* GroupTableViewController.m */; };
 		2C4CB4ED190DE30F001E4E9B /* GroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CB4EC190DE30F001E4E9B /* GroupTableViewCell.m */; };
-		2C4CB4F0190DEA8A001E4E9B /* mini_clubman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4CB4EE190DEA8A001E4E9B /* mini_clubman.jpg */; };
-		2C4CB4F1190DEA8A001E4E9B /* chevy_volt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4CB4EF190DEA8A001E4E9B /* chevy_volt.jpg */; };
 		2C4CB4F4190DEBFB001E4E9B /* GroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CB4F3190DEBFB001E4E9B /* GroupDetailViewController.m */; };
 		2C4CB4FD190DFF8C001E4E9B /* GroupAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CB4FC190DFF8C001E4E9B /* GroupAddViewController.m */; };
 		2C50A6C5190F10BD00792253 /* GroupAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C50A6C4190F10BD00792253 /* GroupAdd.m */; };
 		2C50A6C7190F2B2100792253 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C50A6C6190F2B2100792253 /* MobileCoreServices.framework */; };
+		38B116C91916B4BA003B7A81 /* AddressBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38B116BB1916B4BA003B7A81 /* AddressBook-Info.plist */; };
+		38B116CC1916B4BA003B7A81 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B116C21916B4BA003B7A81 /* DetailViewController.m */; };
+		38B116CD1916B4BA003B7A81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38B116C31916B4BA003B7A81 /* InfoPlist.strings */; };
+		38B116D01916B4BA003B7A81 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B116C81916B4BA003B7A81 /* MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +64,6 @@
 		2C4CB4E9190DE2C8001E4E9B /* GroupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewController.m; sourceTree = "<group>"; };
 		2C4CB4EB190DE30F001E4E9B /* GroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableViewCell.h; sourceTree = "<group>"; };
 		2C4CB4EC190DE30F001E4E9B /* GroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewCell.m; sourceTree = "<group>"; };
-		2C4CB4EE190DEA8A001E4E9B /* mini_clubman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mini_clubman.jpg; path = ../../../../Downloads/mini_clubman.jpg; sourceTree = "<group>"; };
-		2C4CB4EF190DEA8A001E4E9B /* chevy_volt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chevy_volt.jpg; path = ../../../../Downloads/chevy_volt.jpg; sourceTree = "<group>"; };
 		2C4CB4F2190DEBFB001E4E9B /* GroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupDetailViewController.h; sourceTree = "<group>"; };
 		2C4CB4F3190DEBFB001E4E9B /* GroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupDetailViewController.m; sourceTree = "<group>"; };
 		2C4CB4FB190DFF8C001E4E9B /* GroupAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupAddViewController.h; path = ../GroupAddViewController.h; sourceTree = "<group>"; };
@@ -71,6 +71,13 @@
 		2C50A6C3190F10BD00792253 /* GroupAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAdd.h; sourceTree = "<group>"; };
 		2C50A6C4190F10BD00792253 /* GroupAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAdd.m; sourceTree = "<group>"; };
 		2C50A6C6190F2B2100792253 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		38B116BB1916B4BA003B7A81 /* AddressBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AddressBook-Info.plist"; sourceTree = "<group>"; };
+		38B116BC1916B4BA003B7A81 /* AddressBook-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddressBook-Prefix.pch"; sourceTree = "<group>"; };
+		38B116C11916B4BA003B7A81 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		38B116C21916B4BA003B7A81 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		38B116C41916B4BA003B7A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38B116C71916B4BA003B7A81 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		38B116C81916B4BA003B7A81 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +139,7 @@
 		2C4CB4B9190DE153001E4E9B /* Groussage */ = {
 			isa = PBXGroup;
 			children = (
+				38B116BA1916B4BA003B7A81 /* AddressBook */,
 				2C4CB4C2190DE153001E4E9B /* AppDelegate.h */,
 				2C4CB4C3190DE153001E4E9B /* AppDelegate.m */,
 				2C4CB4C5190DE153001E4E9B /* Main.storyboard */,
@@ -145,8 +153,6 @@
 				2C4CB4FC190DFF8C001E4E9B /* GroupAddViewController.m */,
 				2C50A6C3190F10BD00792253 /* GroupAdd.h */,
 				2C50A6C4190F10BD00792253 /* GroupAdd.m */,
-				2C4CB4EE190DEA8A001E4E9B /* mini_clubman.jpg */,
-				2C4CB4EF190DEA8A001E4E9B /* chevy_volt.jpg */,
 				2C4CB4CB190DE153001E4E9B /* Images.xcassets */,
 				2C4CB4BA190DE153001E4E9B /* Supporting Files */,
 			);
@@ -180,6 +186,21 @@
 				2C4CB4DB190DE153001E4E9B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38B116BA1916B4BA003B7A81 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				38B116BB1916B4BA003B7A81 /* AddressBook-Info.plist */,
+				38B116BC1916B4BA003B7A81 /* AddressBook-Prefix.pch */,
+				38B116C11916B4BA003B7A81 /* DetailViewController.h */,
+				38B116C21916B4BA003B7A81 /* DetailViewController.m */,
+				38B116C31916B4BA003B7A81 /* InfoPlist.strings */,
+				38B116C71916B4BA003B7A81 /* MasterViewController.h */,
+				38B116C81916B4BA003B7A81 /* MasterViewController.m */,
+			);
+			name = AddressBook;
+			path = ../../AddressBook/AddressBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4CB4CC190DE153001E4E9B /* Images.xcassets in Resources */,
-				2C4CB4F0190DEA8A001E4E9B /* mini_clubman.jpg in Resources */,
+				38B116CD1916B4BA003B7A81 /* InfoPlist.strings in Resources */,
 				2C4CB4BE190DE153001E4E9B /* InfoPlist.strings in Resources */,
-				2C4CB4F1190DEA8A001E4E9B /* chevy_volt.jpg in Resources */,
+				38B116C91916B4BA003B7A81 /* AddressBook-Info.plist in Resources */,
 				2C4CB4C7190DE153001E4E9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,8 +304,10 @@
 			files = (
 				2C4CB4C4190DE153001E4E9B /* AppDelegate.m in Sources */,
 				2C50A6C5190F10BD00792253 /* GroupAdd.m in Sources */,
+				38B116CC1916B4BA003B7A81 /* DetailViewController.m in Sources */,
 				2C4CB4C0190DE153001E4E9B /* main.m in Sources */,
 				2C4CB4FD190DFF8C001E4E9B /* GroupAddViewController.m in Sources */,
+				38B116D01916B4BA003B7A81 /* MasterViewController.m in Sources */,
 				2C4CB4F4190DEBFB001E4E9B /* GroupDetailViewController.m in Sources */,
 				2C4CB4EA190DE2C8001E4E9B /* GroupTableViewController.m in Sources */,
 				2C4CB4ED190DE30F001E4E9B /* GroupTableViewCell.m in Sources */,
@@ -330,6 +353,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C4CB4DC190DE153001E4E9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38B116C31916B4BA003B7A81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B116C41916B4BA003B7A81 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
