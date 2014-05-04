@@ -14,6 +14,8 @@
 
 @property (nonatomic, strong)NSMutableArray *arrContactsData;
 @property (nonatomic, strong) ABPeoplePickerNavigationController *addressBookController;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *doneButton;
+
 
 -(void)showAddressBook;
 
@@ -45,6 +47,7 @@
 
 
 #pragma mark - Private method implementation
+
 
 -(void)showAddressBook{
     _addressBookController = [[ABPeoplePickerNavigationController alloc] init];
@@ -83,10 +86,16 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    if(sender == self.doneButton){
+        [self.navigationController popViewControllerAnimated:YES];
+        NSLog(@"Done Pressed");
+    };
+    
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSDictionary *contactDetailsDictionary = [_arrContactsData objectAtIndex:self.tableView.indexPathForSelectedRow.row];
         [[segue destinationViewController] setDictContactDetails:contactDetailsDictionary];
     }
+    
 }
 
 
