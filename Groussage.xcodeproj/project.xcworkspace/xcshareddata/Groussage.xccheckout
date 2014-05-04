@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>001E7E91-AC3A-4B71-BC7E-783D83657A1F</string>
+	<string>8238ADE7-6A58-4D1B-8154-9A005A3AD2D0</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Groussage</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -19,6 +19,8 @@
 	<dict>
 		<key>BAB1FA23-5D94-4936-864B-7B68A377DBB6</key>
 		<string>../..</string>
+		<key>F2320792-84C8-42EA-A065-F11433FCDDFE</key>
+		<string>../../../AddressBook</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ktruong5/Groussage.git</string>
@@ -28,6 +30,14 @@
 	<string>BAB1FA23-5D94-4936-864B-7B68A377DBB6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F2320792-84C8-42EA-A065-F11433FCDDFE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AddressBook</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
