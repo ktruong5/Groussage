@@ -26,14 +26,9 @@
 		2C4CB4FD190DFF8C001E4E9B /* GroupAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CB4FC190DFF8C001E4E9B /* GroupAddViewController.m */; };
 		2C50A6C5190F10BD00792253 /* GroupAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C50A6C4190F10BD00792253 /* GroupAdd.m */; };
 		2C50A6C7190F2B2100792253 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C50A6C6190F2B2100792253 /* MobileCoreServices.framework */; };
-		38B116C91916B4BA003B7A81 /* AddressBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38B116BB1916B4BA003B7A81 /* AddressBook-Info.plist */; };
-		38B116CC1916B4BA003B7A81 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B116C21916B4BA003B7A81 /* DetailViewController.m */; };
-		38B116CD1916B4BA003B7A81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38B116C31916B4BA003B7A81 /* InfoPlist.strings */; };
-		38B116D01916B4BA003B7A81 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B116C81916B4BA003B7A81 /* MasterViewController.m */; };
-		38B1171B1916D430003B7A81 /* AddressBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38B117121916D430003B7A81 /* AddressBook-Info.plist */; };
-		38B1171C1916D430003B7A81 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B117151916D430003B7A81 /* DetailViewController.m */; };
-		38B1171D1916D430003B7A81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38B117171916D430003B7A81 /* InfoPlist.strings */; };
-		38B1171E1916D430003B7A81 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1171A1916D430003B7A81 /* MasterViewController.m */; };
+		38B117771916E170003B7A81 /* AddressBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38B117711916E170003B7A81 /* AddressBook-Info.plist */; };
+		38B117781916E170003B7A81 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B117741916E170003B7A81 /* DetailViewController.m */; };
+		38B117791916E170003B7A81 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B117761916E170003B7A81 /* MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C4CB4B0190DE153001E4E9B /* Groussage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groussage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4CB4B0190DE153001E4E9B /* Groussage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Groussage.app; path = "/Users/almasbarzhaxynov/Desktop/Groussage/build/Debug-iphoneos/Groussage.app"; sourceTree = "<absolute>"; };
 		2C4CB4B3190DE153001E4E9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2C4CB4B5190DE153001E4E9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2C4CB4B7190DE153001E4E9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -59,7 +54,7 @@
 		2C4CB4C3190DE153001E4E9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2C4CB4C6190DE153001E4E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C4CB4CB190DE153001E4E9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2C4CB4D1190DE153001E4E9B /* GroussageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroussageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4CB4D1190DE153001E4E9B /* GroussageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GroussageTests.xctest; path = "/Users/almasbarzhaxynov/Desktop/Groussage/build/Debug-iphoneos/GroussageTests.xctest"; sourceTree = "<absolute>"; };
 		2C4CB4D2190DE153001E4E9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2C4CB4DA190DE153001E4E9B /* GroussageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GroussageTests-Info.plist"; sourceTree = "<group>"; };
 		2C4CB4DC190DE153001E4E9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -75,20 +70,12 @@
 		2C50A6C3190F10BD00792253 /* GroupAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAdd.h; sourceTree = "<group>"; };
 		2C50A6C4190F10BD00792253 /* GroupAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAdd.m; sourceTree = "<group>"; };
 		2C50A6C6190F2B2100792253 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		38B116BB1916B4BA003B7A81 /* AddressBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AddressBook-Info.plist"; sourceTree = "<group>"; };
-		38B116BC1916B4BA003B7A81 /* AddressBook-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddressBook-Prefix.pch"; sourceTree = "<group>"; };
-		38B116C11916B4BA003B7A81 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		38B116C21916B4BA003B7A81 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		38B116C41916B4BA003B7A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		38B116C71916B4BA003B7A81 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		38B116C81916B4BA003B7A81 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		38B117121916D430003B7A81 /* AddressBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AddressBook-Info.plist"; sourceTree = "<group>"; };
-		38B117131916D430003B7A81 /* AddressBook-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddressBook-Prefix.pch"; sourceTree = "<group>"; };
-		38B117141916D430003B7A81 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		38B117151916D430003B7A81 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		38B117181916D430003B7A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		38B117191916D430003B7A81 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		38B1171A1916D430003B7A81 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		38B117711916E170003B7A81 /* AddressBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AddressBook-Info.plist"; path = "Groussage/AddressBook/AddressBook-Info.plist"; sourceTree = SOURCE_ROOT; };
+		38B117721916E170003B7A81 /* AddressBook-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AddressBook-Prefix.pch"; path = "Groussage/AddressBook/AddressBook-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		38B117731916E170003B7A81 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Groussage/AddressBook/DetailViewController.h; sourceTree = SOURCE_ROOT; };
+		38B117741916E170003B7A81 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Groussage/AddressBook/DetailViewController.m; sourceTree = SOURCE_ROOT; };
+		38B117751916E170003B7A81 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = Groussage/AddressBook/MasterViewController.h; sourceTree = SOURCE_ROOT; };
+		38B117761916E170003B7A81 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = Groussage/AddressBook/MasterViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,17 +109,7 @@
 				2C4CB4B9190DE153001E4E9B /* Groussage */,
 				2C4CB4D8190DE153001E4E9B /* GroussageTests */,
 				2C4CB4B2190DE153001E4E9B /* Frameworks */,
-				2C4CB4B1190DE153001E4E9B /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2C4CB4B1190DE153001E4E9B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2C4CB4B0190DE153001E4E9B /* Groussage.app */,
-				2C4CB4D1190DE153001E4E9B /* GroussageTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2C4CB4B2190DE153001E4E9B /* Frameworks */ = {
@@ -202,31 +179,15 @@
 		38B116BA1916B4BA003B7A81 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
-				38B117121916D430003B7A81 /* AddressBook-Info.plist */,
-				38B117131916D430003B7A81 /* AddressBook-Prefix.pch */,
-				38B117141916D430003B7A81 /* DetailViewController.h */,
-				38B117151916D430003B7A81 /* DetailViewController.m */,
-				38B117161916D430003B7A81 /* en.lproj */,
-				38B117191916D430003B7A81 /* MasterViewController.h */,
-				38B1171A1916D430003B7A81 /* MasterViewController.m */,
-				38B116BB1916B4BA003B7A81 /* AddressBook-Info.plist */,
-				38B116BC1916B4BA003B7A81 /* AddressBook-Prefix.pch */,
-				38B116C11916B4BA003B7A81 /* DetailViewController.h */,
-				38B116C21916B4BA003B7A81 /* DetailViewController.m */,
-				38B116C31916B4BA003B7A81 /* InfoPlist.strings */,
-				38B116C71916B4BA003B7A81 /* MasterViewController.h */,
-				38B116C81916B4BA003B7A81 /* MasterViewController.m */,
+				38B117711916E170003B7A81 /* AddressBook-Info.plist */,
+				38B117721916E170003B7A81 /* AddressBook-Prefix.pch */,
+				38B117731916E170003B7A81 /* DetailViewController.h */,
+				38B117741916E170003B7A81 /* DetailViewController.m */,
+				38B117751916E170003B7A81 /* MasterViewController.h */,
+				38B117761916E170003B7A81 /* MasterViewController.m */,
 			);
 			name = AddressBook;
 			path = ../../AddressBook/AddressBook;
-			sourceTree = "<group>";
-		};
-		38B117161916D430003B7A81 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				38B117171916D430003B7A81 /* InfoPlist.strings */,
-			);
-			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +251,7 @@
 				Base,
 			);
 			mainGroup = 2C4CB4A7190DE153001E4E9B;
-			productRefGroup = 2C4CB4B1190DE153001E4E9B /* Products */;
+			productRefGroup = 2C4CB4A7190DE153001E4E9B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -306,11 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4CB4CC190DE153001E4E9B /* Images.xcassets in Resources */,
-				38B1171D1916D430003B7A81 /* InfoPlist.strings in Resources */,
-				38B116CD1916B4BA003B7A81 /* InfoPlist.strings in Resources */,
-				38B1171B1916D430003B7A81 /* AddressBook-Info.plist in Resources */,
 				2C4CB4BE190DE153001E4E9B /* InfoPlist.strings in Resources */,
-				38B116C91916B4BA003B7A81 /* AddressBook-Info.plist in Resources */,
+				38B117771916E170003B7A81 /* AddressBook-Info.plist in Resources */,
 				2C4CB4C7190DE153001E4E9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,14 +290,12 @@
 			files = (
 				2C4CB4C4190DE153001E4E9B /* AppDelegate.m in Sources */,
 				2C50A6C5190F10BD00792253 /* GroupAdd.m in Sources */,
-				38B116CC1916B4BA003B7A81 /* DetailViewController.m in Sources */,
 				2C4CB4C0190DE153001E4E9B /* main.m in Sources */,
+				38B117781916E170003B7A81 /* DetailViewController.m in Sources */,
 				2C4CB4FD190DFF8C001E4E9B /* GroupAddViewController.m in Sources */,
-				38B1171C1916D430003B7A81 /* DetailViewController.m in Sources */,
-				38B1171E1916D430003B7A81 /* MasterViewController.m in Sources */,
-				38B116D01916B4BA003B7A81 /* MasterViewController.m in Sources */,
 				2C4CB4F4190DEBFB001E4E9B /* GroupDetailViewController.m in Sources */,
 				2C4CB4EA190DE2C8001E4E9B /* GroupTableViewController.m in Sources */,
+				38B117791916E170003B7A81 /* MasterViewController.m in Sources */,
 				2C4CB4ED190DE30F001E4E9B /* GroupTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,22 +339,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C4CB4DC190DE153001E4E9B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		38B116C31916B4BA003B7A81 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38B116C41916B4BA003B7A81 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		38B117171916D430003B7A81 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38B117181916D430003B7A81 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
