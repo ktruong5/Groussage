@@ -26,10 +26,9 @@
 		2C4CB4FD190DFF8C001E4E9B /* GroupAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CB4FC190DFF8C001E4E9B /* GroupAddViewController.m */; };
 		2C50A6C5190F10BD00792253 /* GroupAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C50A6C4190F10BD00792253 /* GroupAdd.m */; };
 		2C50A6C7190F2B2100792253 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C50A6C6190F2B2100792253 /* MobileCoreServices.framework */; };
-		38B116C91916B4BA003B7A81 /* AddressBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38B116BB1916B4BA003B7A81 /* AddressBook-Info.plist */; };
-		38B116CC1916B4BA003B7A81 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B116C21916B4BA003B7A81 /* DetailViewController.m */; };
-		38B116CD1916B4BA003B7A81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38B116C31916B4BA003B7A81 /* InfoPlist.strings */; };
-		38B116D01916B4BA003B7A81 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B116C81916B4BA003B7A81 /* MasterViewController.m */; };
+		38B1176A1916D980003B7A81 /* AddressBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38B117681916D980003B7A81 /* AddressBook-Info.plist */; };
+		38B1176D1916D9A0003B7A81 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1176C1916D9A0003B7A81 /* MasterViewController.m */; };
+		38B117701916D9B1003B7A81 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B1176F1916D9B1003B7A81 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,13 +70,12 @@
 		2C50A6C3190F10BD00792253 /* GroupAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAdd.h; sourceTree = "<group>"; };
 		2C50A6C4190F10BD00792253 /* GroupAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAdd.m; sourceTree = "<group>"; };
 		2C50A6C6190F2B2100792253 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		38B116BB1916B4BA003B7A81 /* AddressBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AddressBook-Info.plist"; sourceTree = "<group>"; };
-		38B116BC1916B4BA003B7A81 /* AddressBook-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddressBook-Prefix.pch"; sourceTree = "<group>"; };
-		38B116C11916B4BA003B7A81 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		38B116C21916B4BA003B7A81 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		38B116C41916B4BA003B7A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		38B116C71916B4BA003B7A81 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		38B116C81916B4BA003B7A81 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		38B117681916D980003B7A81 /* AddressBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AddressBook-Info.plist"; sourceTree = "<group>"; };
+		38B117691916D980003B7A81 /* AddressBook-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddressBook-Prefix.pch"; sourceTree = "<group>"; };
+		38B1176B1916D9A0003B7A81 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		38B1176C1916D9A0003B7A81 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		38B1176E1916D9B1003B7A81 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		38B1176F1916D9B1003B7A81 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,13 +189,12 @@
 		38B116BA1916B4BA003B7A81 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
-				38B116BB1916B4BA003B7A81 /* AddressBook-Info.plist */,
-				38B116BC1916B4BA003B7A81 /* AddressBook-Prefix.pch */,
-				38B116C11916B4BA003B7A81 /* DetailViewController.h */,
-				38B116C21916B4BA003B7A81 /* DetailViewController.m */,
-				38B116C31916B4BA003B7A81 /* InfoPlist.strings */,
-				38B116C71916B4BA003B7A81 /* MasterViewController.h */,
-				38B116C81916B4BA003B7A81 /* MasterViewController.m */,
+				38B1176E1916D9B1003B7A81 /* DetailViewController.h */,
+				38B1176F1916D9B1003B7A81 /* DetailViewController.m */,
+				38B1176B1916D9A0003B7A81 /* MasterViewController.h */,
+				38B1176C1916D9A0003B7A81 /* MasterViewController.m */,
+				38B117681916D980003B7A81 /* AddressBook-Info.plist */,
+				38B117691916D980003B7A81 /* AddressBook-Prefix.pch */,
 			);
 			name = AddressBook;
 			path = ../../AddressBook/AddressBook;
@@ -280,9 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4CB4CC190DE153001E4E9B /* Images.xcassets in Resources */,
-				38B116CD1916B4BA003B7A81 /* InfoPlist.strings in Resources */,
 				2C4CB4BE190DE153001E4E9B /* InfoPlist.strings in Resources */,
-				38B116C91916B4BA003B7A81 /* AddressBook-Info.plist in Resources */,
+				38B1176A1916D980003B7A81 /* AddressBook-Info.plist in Resources */,
 				2C4CB4C7190DE153001E4E9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,10 +300,10 @@
 			files = (
 				2C4CB4C4190DE153001E4E9B /* AppDelegate.m in Sources */,
 				2C50A6C5190F10BD00792253 /* GroupAdd.m in Sources */,
-				38B116CC1916B4BA003B7A81 /* DetailViewController.m in Sources */,
+				38B117701916D9B1003B7A81 /* DetailViewController.m in Sources */,
 				2C4CB4C0190DE153001E4E9B /* main.m in Sources */,
 				2C4CB4FD190DFF8C001E4E9B /* GroupAddViewController.m in Sources */,
-				38B116D01916B4BA003B7A81 /* MasterViewController.m in Sources */,
+				38B1176D1916D9A0003B7A81 /* MasterViewController.m in Sources */,
 				2C4CB4F4190DEBFB001E4E9B /* GroupDetailViewController.m in Sources */,
 				2C4CB4EA190DE2C8001E4E9B /* GroupTableViewController.m in Sources */,
 				2C4CB4ED190DE30F001E4E9B /* GroupTableViewCell.m in Sources */,
@@ -353,14 +349,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C4CB4DC190DE153001E4E9B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		38B116C31916B4BA003B7A81 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38B116C41916B4BA003B7A81 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
